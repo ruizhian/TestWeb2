@@ -1,0 +1,165 @@
+
+#introdution{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 80%;
+    height: auto;
+    background: rgba(241,243,244,0.2);
+    text-align: center;
+    overflow-wrap: break-word;
+    border-radius: 5% 5%;
+    font-family: KaiTi;
+    
+}
+
+.title {
+    margin-top: 60px;
+    padding: 10px;
+    line-height: 40px;
+    width: 50px;
+    height: 180px;
+    font-family: KaiTi;
+    font-size: 35px;
+    color: wheat;
+    background: rgb(54, 119, 231);
+    border-radius: 15% 15%;
+}
+
+
+.title1 {
+    position: relative;
+    left: 30px;
+}
+
+#theme {
+    position: relative;
+    display: block;
+    top: -10%;
+    left: 20%;
+    width: 60%;
+    font-size: 23px;
+    color:wheat;
+    text-align: left;
+    line-height: 35px;
+}
+.title2{
+    position: relative;
+    left: 30px;
+    height: 140px;
+    top: -3%;
+}
+.title3{ 
+    position: relative;
+    left: 30px;
+    height: 220px;
+}
+#speaker {
+    position: relative;
+    display: flex;
+    bottom: 10%;
+    width: 80%;
+    left: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    line-height: 50px;
+    text-align: left;
+}
+#speaker p {
+    position: relative;
+    width: 90%;
+}
+#contents {
+    /*margin-left: 5%;*/
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+#contents .organization {
+    font-size: 25px;
+    font-weight: bolder;
+}
+#button {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 45px;
+    margin: 50px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#up1 {
+    position: relative;
+    border: 2px solid  rgb(54, 119, 231);
+    width: 43px;
+    height: 43px;
+    border-radius: 50% 50%;
+    text-align: center;
+}
+#down2 {
+    position: relative;
+    left: 100px;
+    width: 43px;
+    height: 43px;
+    border: 2px solid  rgb(54, 119, 231);
+    border-radius: 50% 50%;
+    text-align: center;
+}
+a:hover {
+    color:  wheat;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    #introdution #theme{
+       font-size: 30px;
+    }
+    
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    #introdution #theme{
+        
+        font-size: 30px;
+    }
+    #speaker {
+        padding-left:10%;
+        font-size: 18px;
+    }
+    #contents {
+        text-align: unset;
+        padding-right: 10%;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+    #introdution {
+        width: 100%;
+    }
+    .title {
+        margin-top: 60px;
+        padding: 5px;
+        line-height: 25px;
+        width: 100px;
+        height: 30px;
+        left: 37%;
+        font-family: KaiTi;
+        font-size: 20px;
+        color: wheat;
+        background: rgb(54, 119, 231);
+    }
+    .title3{
+        width: 120px;
+    }
+    #introdution #theme{
+        left: 0;
+        width: 100%;
+        padding:2% ;
+        font-size: 20px;
+    }
+    #speaker {
+        width: 100%;
+        left: 5%;
+        font-size: 13px;
+    }
+}

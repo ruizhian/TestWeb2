@@ -1,0 +1,116 @@
+#main2 {
+    position: relative;   
+    top: -8%;
+    left: 50%;
+    width: 75%;
+    height: auto;
+    background:  rgba(193,193,193,0.3); 
+    transform: translate(-50%,0);
+    border-radius: 5% 5%; 
+    font-family: KaiTi;
+    font-size: 23px;
+    text-align: center;
+}
+#participation-method {
+    position: relative;
+    top: 10%;
+    margin-top:0;
+}
+/*#participation-method img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5%;
+}*/
+#participation-method :nth-child(4) {
+    padding-bottom: 5%; 
+}
+
+#register {
+    position: relative;
+    padding-bottom: 5%;
+}
+
+#stay-info p{
+    position: relative;
+    top: 10%;
+    padding-bottom: 10%;
+}
+/*#up2 {
+    position: relative;
+    left:50%;
+    top: -20%;
+    margin-bottom: 5%;
+    border: 2px solid  rgb(54, 119, 231);
+    width: 43px;
+    height: 43px;
+    border-radius: 50% 50%;
+    text-align: center;
+}*/
+@media screen and (max-width: 767px) {
+    #main2 {
+        width: 100%;
+        padding:2%;
+        font-size: 18px;
+    }
+    .title { 
+        width: 120px;
+        height: 40px;
+        /*left: 35%;
+        top: -10%;*/
+    }
+    .title4 {
+        top: 55%;
+    }
+    #up2 {
+        top: 30%;
+    }
+
+}
+@media screen and (width: 768px) {
+    #main2 {
+        width: 100%;
+        top: 0%;
+        padding:2%;
+        font-size: 18px;
+        
+    }
+    .title {
+        left: 50%;
+        transform: translate(-50% 0);
+        width: 120px;
+        height: 40px;
+        /*left: 43%;*/
+    }
+   
+}
+@media screen and (max-width: 992px) and(min-width:768px) {
+    #main2 {
+        position: absolute;
+        width: 100%;
+        top: 40%;
+        margin-top: 0;
+        padding:5%;
+        font-size: 18px;
+    }
+    .title {
+        left: 100%;
+        transform: translate(-50% 0);
+        width: 120px;
+        height: 40px;
+        /*left: 35%;*/
+    }
+    
+
+}
+@media screen and (max-width: 1025px) and (min-width: 992px) {
+    #participation-method {
+        margin-top: 20%;
+    }
+}
+/*@media screen and (min-width: 992px) {
+   
+    #up2 {
+       top: 10%;
+    }
+}*/
