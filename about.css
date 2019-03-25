@@ -2,19 +2,23 @@
     position: relative; 
     display: flex; 
     margin-top: 3%;
-    width: 80%;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
-    background:  rgba(193,193,193,0.3); 
+    /*background:  rgba(193,193,193,0.3); */
     border-radius: 5% 5%; 
-    font-family: KaiTi;
-    font-size: 23px;
+    font-family: Microsoft Yahei;
+    font-size: 20px;
     text-align: center;
+}
+#stay-info a {
+    color:wheat;
 }
 #participation-method {
     position: relative;
+    margin-top: 5%;
     padding-bottom: 10%;
 }
 #participation-method p{
@@ -30,26 +34,38 @@
     padding-bottom: 10%; 
 }
 
+
 #register {
     position: relative;
-    margin-top: 10%;
-    padding-bottom: 5%;
+    margin-top: 5%;
+   
+}
+#register table {
+    width: 100%;
 }
 #register p {
     padding-top: 2%;
 }
 #stay-info {
-    padding-top: 5%;
+    margin-top: 5%;
 }
 #stay-info p{
     position: relative;
     padding-top: 1%;
     padding-bottom: 10%;
 }
+.stay-info {
+    width: 100%;
+}
+.method {
+    width: 100%;
+}
 #up2 {
     position: relative;
-    left: 50%;
-    transform: translate(-50% 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 3%;
     margin-bottom: 3%;
     border: 2px solid  rgb(54, 119, 231);
