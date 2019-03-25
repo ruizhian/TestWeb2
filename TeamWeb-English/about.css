@@ -39,9 +39,7 @@
     padding-top: 2%;
 }
 #stay-info {
-    width: 80%;
     padding-top: 5%;
-
 }
 #stay-info p{
     position: relative;
@@ -60,22 +58,14 @@
     border-radius: 50% 50%;
     text-align: center;
 }
-/*
+
 @media screen and (max-width: 767px) {
     #main2 {
         width: 100%;
         padding:2%;
         font-size: 18px;
     }
-    .title { 
-        width: 120px;
-        height: 40px;
-        left: 35%;
-        top: -10%;
-    }
-    .title4 {
-        top: 55%;
-    }
+    
 
 }
 @media screen and (width: 768px) {
@@ -104,24 +94,11 @@
         padding:5%;
         font-size: 18px;
     }
-    .title {
-        left: 100%;
-        transform: translate(-50% 0);
-        width: 120px;
-        height: 40px;
-        left: 35%;
-    }
     
-
 }
 @media screen and (max-width: 1025px) and (min-width: 992px) {
     #participation-method {
         margin-top: 20%;
     }
 }
-@media screen and (min-width: 992px) {
-   
-    #up2 {
-       top: 10%;
-    }
-}*/
+
