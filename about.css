@@ -1,11 +1,13 @@
 #main2 {
-    position: relative;   
-    top: -8%;
-    left: 50%;
-    width: 75%;
+    position: relative; 
+    display: flex; 
+    margin-top: 3%;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: auto;
     background:  rgba(193,193,193,0.3); 
-    transform: translate(-50%,0);
     border-radius: 5% 5%; 
     font-family: KaiTi;
     font-size: 23px;
@@ -13,8 +15,10 @@
 }
 #participation-method {
     position: relative;
-    top: 10%;
-    margin-top:0;
+    padding-bottom: 10%;
+}
+#participation-method p{
+    padding-top: 2%;
 }
 /*#participation-method img{
     position: relative;
@@ -23,30 +27,38 @@
     margin-bottom: 5%;
 }*/
 #participation-method :nth-child(4) {
-    padding-bottom: 5%; 
+    padding-bottom: 10%; 
 }
 
 #register {
     position: relative;
+    margin-top: 10%;
     padding-bottom: 5%;
 }
-
+#register p {
+    padding-top: 2%;
+}
+#stay-info {
+    padding-top: 5%;
+}
 #stay-info p{
     position: relative;
-    top: 10%;
+    padding-top: 1%;
     padding-bottom: 10%;
 }
-/*#up2 {
+#up2 {
     position: relative;
-    left:50%;
-    top: -20%;
-    margin-bottom: 5%;
+    left: 50%;
+    transform: translate(-50% 0);
+    margin-top: 3%;
+    margin-bottom: 3%;
     border: 2px solid  rgb(54, 119, 231);
     width: 43px;
     height: 43px;
     border-radius: 50% 50%;
     text-align: center;
-}*/
+}
+/*
 @media screen and (max-width: 767px) {
     #main2 {
         width: 100%;
@@ -56,14 +68,11 @@
     .title { 
         width: 120px;
         height: 40px;
-        /*left: 35%;
-        top: -10%;*/
+        left: 35%;
+        top: -10%;
     }
     .title4 {
         top: 55%;
-    }
-    #up2 {
-        top: 30%;
     }
 
 }
@@ -80,7 +89,7 @@
         transform: translate(-50% 0);
         width: 120px;
         height: 40px;
-        /*left: 43%;*/
+        left: 43%;
     }
    
 }
@@ -98,7 +107,7 @@
         transform: translate(-50% 0);
         width: 120px;
         height: 40px;
-        /*left: 35%;*/
+        left: 35%;
     }
     
 
@@ -108,7 +117,7 @@
         margin-top: 20%;
     }
 }
-/*@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
    
     #up2 {
        top: 10%;

@@ -38,28 +38,20 @@
                                     <li><a href="index.html">
                                             <i class="fa fa-home fa-1x" aria-hidden="true"></i> 主页</a></li>
                                     <li><a href="introduction.html">会议介绍</a></li>
-                                     <li><a href="about.html">注册加入</a></li>
+                                    <li><a href="about.html">注册参会</a></li>
+                                    <li><a href="TeamWeb-English/about.html">ENGLISH</a></li>
                             </ul>
                         </div>
                     </div>
                 </nav>
         </header>    
     </div>
-    <div id="main2">
-        <div id="participation-method" name="method">
-            <h3 class="title ">参与方式</h3>
-            <!--<img src="image/-two-dimension-code.png" id="two-dc">
-            <p>微信扫一扫加入参会群</p>-->
-            <p>
-                论坛联系人：蒋林智<br/>
-                联系电话：18180453935 <br/>
-                邮箱：linzjiang#hotmail.com <br/>
-            </p>
-        </div>
+    <div id="main2" >
         <div id="register">
-                <h3 class="title ">注册信息</h3>
+                <h2 class="title "><b>注册信息</b></h2>
                     <p>每人1500元，可通过网银转账、银行汇款方式缴纳。<br/>
-    
+
+
                             网银转账、银行汇款收款人信息如下：<br/>
                             
                             单位名称：杭州灵峰会议服务有限公司<br/>
@@ -68,21 +60,43 @@
                             
                             开户行：中国银行浙大支行<br/>
                             
-                            账号：<b>377 958 327 225</b></p>
+                            账号：<b>377 958 327 225</b><br/>
+                            转账时请注明单位与姓名<br/></p>
         </div>
         <div id="stay-info">
-            <h3 class="title">住宿信息</h3>
+            <h2 class="title"><b>住宿信息</b></h2>
             <p>本次论坛为所有邀请报告人提供住宿以及往返机票。<br/>
-                所邀请报告人将居住在浙江世贸君澜大饭店，其他自行参会者可以选择玉泉饭店和灵峰山庄。</p>
+                所邀请报告人将居住在浙江世贸
+                <a href="https://www.google.cn/maps/place/Zhejiang+Narada+Grand+Hotel/@30.265754,120.1384123,17z/data=!3m1!4b1!4m5!3m4!1s0x344b628dca7f2211:0x17322478b872549!8m2!3d30.265754!4d120.140601
+                ">君澜大饭店</a>
+                ，其他自行参会者可以选择
+                <a href="https://www.google.cn/maps/place/Yuquan+Hotel/@30.25931,120.1233353,17z/data=!3m1!4b1!4m5!3m4!1s0x344b62e861cb5fd3:0xd27d4eae06cbaa12!8m2!3d30.25931!4d120.125524
+                ">玉泉饭店</a>
+                和
+                <a href="https://www.google.cn/maps/place/%E7%81%B5%E5%B3%B0%E5%B1%B1%E5%BA%84/@30.260165,120.1236463,17z/data=!3m1!4b1!4m5!3m4!1s0x344b62e8ec4d88f5:0x893252db7ac4d6c3!8m2!3d30.260165!4d120.125835
+                ">灵峰山庄</a>。
+            </p>
         </div>
+        <div id="participation-method" name="method"> 
+                <h2 class="title "><b>联系方式</b></h2>
+                <!--<img src="image/-two-dimension-code.png" id="two-dc">
+                <p>微信扫一扫加入参会群</p>-->
+                <p>
+                    论坛联系人：蒋林智<br/>
+                    联系电话：18180453935 <br/>
+                    邮箱：linzjiang(#)hotmail(dot)com
+                    <br/>
+                </p>
+            </div>
     </div>
-    <!--<div id="up2">
+   <div id="up2">
             <a href="introduction.html">
                 <i class="fa fa-angle-double-up  fa-3x" style="color:rgb(81,125,207)" aria-hidden="true"></i>
             </a>
-    </div>-->
+    </div>
     <script>
-        let up1=document.getElementById('up2');
+        let iconDown=document.getElementById('up2');
+            
             //跨浏览器兼容事件处理器
         var addHandler=function(element,type,handler){
             if(addEventListener){
@@ -96,12 +110,12 @@
             }
         }
         //向下图标的鼠标事件及点击事件监听器
-        addHandler(up2,"mouseover",()=>up2.style.border="2px solid wheat");
+        addHandler(up2,"mouseover",()=>iconDown.style.border="2px solid wheat");
             
-        addHandler(up2,"click",()=>up2.style.border="2px dotted wheat");
-        
-        addHandler(up2,"mouseout",()=>up2.style.border="");
-        window.sr = ScrollReveal().reveal('#participation-method,#register,#stay-info,p');
+        addHandler(up2,"click",()=>iconDown.style.border="2px dotted wheat");
+    
+        addHandler(up2,"mouseout",()=> iconDown.style.border="");
+        window.sr = ScrollReveal().reveal('#participation-method,#register,#stay-info,p,#up2');
     </script>
 </body>
 </html>

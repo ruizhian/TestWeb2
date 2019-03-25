@@ -116,6 +116,7 @@ ul {
 }
 #main {
     position: absolute;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -123,13 +124,13 @@ ul {
     text-align: center;
 }
 #main p:nth-child(1) {
-    font-size: 45px;
+    font-size: 60px;
 }
 #main p:nth-child(2) {
-    font-size: 25px;
+    font-size: 30px;
 }
 #main p:nth-child(3) {
-    font-size: 30px;
+    font-size: 34px;
 }
 #icon-down {
     position: absolute;
